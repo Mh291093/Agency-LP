@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="asset/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="asset/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Agency</title>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navbar">
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="media/logo.png" alt="logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#services"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#statistics">Statistics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacts">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header>
+      <div class="overlay">
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="carousel-content">
+                <h2>Our Agency specializes in programming and web design</h2>
+                <a href="#gallery">Browse our gallery</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-content">
+                <h2>Our Agency specializes in programming and web design</h2>
+                <a href="#contacts">Contacts</a>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <i class="fa-solid fa-angle-left"></i>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <i class="fa-solid fa-angle-right"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="services" id="services">
+        <div class="services-title text-center">
+          <h3>Services</h3>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card text-center">
+                <div class="card-img">
+                  <img src="media/feature-1.png" alt="feature" />
+                </div>
+                <div class="card-block">
+                  <h4>Website Design</h4>
+                  <p>
+                    Web design refers to display on the internet.It refers to
+                    the user experience aspects of website development rather
+                    than software development.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card text-center">
+                <div class="card-img">
+                  <img src="media/feature-2.png" alt="feature" />
+                </div>
+                <div class="card-block">
+                  <h4>Website Development</h4>
+                  <p>
+                    Web development refers to the tasks associated with building
+                    and maintaining websites and web applications that run
+                    online on a browser.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card text-center">
+                <div class="card-img">
+                  <img src="media/feature-3.png" alt="feature" />
+                </div>
+                <div class="card-block">
+                  <h4>Mentorship</h4>
+                  <p>
+                    Mentorship is the influence, guidance, or direction. A
+                    mentor is someone who teaches or gives help and advice to a
+                    less experienced and often younger person.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="gallery" id="gallery">
+        <div class="gallery-title text-center">
+          <h3>Gallery</h3>
+        </div>
+        <div class="gallery-work">
+          <div class="row g-0">
+            <div class="col-sm-6 col-md-3">
+              <a href="#img1" class="gallery-link">
+                <img src="media/gallery/1.jpg" alt="gallery" />
+                <div class="gallery-hover">
+                  <i class="fa-solid fa-magnifying-glass-plus"></i>
+                </div>
+              </a>
+              <div class="gallery-overlay" id="img1">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="overlay-img">
+                      <img src="media/gallery/1.jpg" alt="gallery" />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="overlay-text">
+                      <h4>Any heading text</h4>
+                      <ul class="list-inline">
+                        <li class="list-inline-item">
+                          <i class="fa-solid fa-tags"></i>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="">After Effect</a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="">Video Editing</a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="">Photoshop</a>
+                        </li>
+                      </ul>
+                      <p>Any paragraph text</p>
+                      <a href="#" class="btn">Go to Project</a>
+                      <a href="#page" class="close">X</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <a href="#img2" class="gallery-link">
+                <img src="media/gallery/2.jpg" alt="gallery" />
+                <div class="gallery-hover">
+                  <i class="fa-solid fa-magnifying-glass-plus"></i>
+                </div>
+              </a>
+              <div class="gallery-overlay" id="img2">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="overlay-img">
+                      <img src="media/gallery/2.jpg" alt="gallery" />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="overlay-text">
+                      <h4>Any heading text</h4>
+                      <ul class="list-inline">
+                        <li class="list-inline-item">
+                          <i class="fa-solid fa-tags"></i>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="">After Effect</a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="">Video Editing</a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="">Photoshop</a>
+                        </li>
+                      </ul>
+                      <p>Any paragraph text</p>
+                      <a href="#" class="btn">Go to Project</a>
+                      <a href="#page" class="close">X</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <a href="#img3" class="gallery-link">
+                <img src="media/gallery/3.jpg" alt="gallery" />
+                <div class="gallery-hover">
+                  <i class="fa-solid fa-magnifying-glass-plus"></i>
+                </div>
+              </a>
+              <div class="gallery-overlay" id="img3">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="overlay-img">
+                      <img src="media/gallery/3.jpg" alt="gallery" />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="overlay-text">
+                      <h4>Any heading text</h4>
+                      <ul class="list-inline">
+                        <li class="list-inline-item">
+                          <i class="fa-solid fa-tags"></i>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="">After Effect</a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="">Video Editing</a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="">Photoshop</a>
+                        </li>
+                      </ul>
+                      <p>Any paragraph text</p>
+                      <a href="#" class="btn">Go to Project</a>
+                      <a href="#page" class="close">X</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <a href="#img4" class="gallery-link">
+                <img src="media/gallery/4.jpg" alt="gallery" />
+                <div class="gallery-hover">
+                  <i class="fa-solid fa-magnifying-glass-plus"></i>
+                </div>
+              </a>
+              <div class="gallery-overlay" id="img4">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="overlay-img">
+                      <img src="media/gallery/4.jpg" alt="gallery" />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="overlay-text">
+                      <h4>Any heading text</h4>
+                      <ul class="list-inline">
+                        <li class="list-inline-item">
+                          <i class="fa-solid fa-tags"></i>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="">After Effect</a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="">Video Editing</a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="">Photoshop</a>
+                        </li>
+                      </ul>
+                      <p>Any paragraph text</p>
+                      <a href="#" class="btn">Go to Project</a>
+                      <a href="#page" class="close">X</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <a href="#img5" class="gallery-link">
+                <img src="media/gallery/5.jpg" alt="gallery" />
+                <div class="gallery-hover">
+                  <i class="fa-solid fa-magnifying-glass-plus"></i>
+                </div>
+              </a>
+              <div class="gallery-overlay" id="img5">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="overlay-img">
+                      <img src="media/gallery/5.jpg" alt="gallery" />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="overlay-text">
+                      <h4>Any heading text</h4>
+                      <ul class="list-inline">
+                        <li class="list-inline-item">
+                          <i class="fa-solid fa-tags"></i>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="">After Effect</a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="">Video Editing</a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="">Photoshop</a>
+                        </li>
+                      </ul>
+                      <p>Any paragraph text</p>
+                      <a href="#" class="btn">Go to Project</a>
+                      <a href="#page" class="close">X</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <a href="#img6" class="gallery-link">
+                <img src="media/gallery/6.jpg" alt="gallery" />
+                <div class="gallery-hover">
+                  <i class="fa-solid fa-magnifying-glass-plus"></i>
+                </div>
+              </a>
+              <div class="gallery-overlay" id="img6">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="overlay-img">
+                      <img src="media/gallery/6.jpg" alt="gallery" />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="overlay-text">
+                      <h4>Any heading text</h4>
+                      <ul class="list-inline">
+                        <li class="list-inline-item">
+                          <i class="fa-solid fa-tags"></i>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="">After Effect</a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="">Video Editing</a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="">Photoshop</a>
+                        </li>
+                      </ul>
+                      <p>Any paragraph text</p>
+                      <a href="#" class="btn">Go to Project</a>
+                      <a href="#page" class="close">X</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <a href="#img7" class="gallery-link">
+                <img src="media/gallery/7.jpg" alt="gallery" />
+                <div class="gallery-hover">
+                  <i class="fa-solid fa-magnifying-glass-plus"></i>
+                </div>
+              </a>
+              <div class="gallery-overlay" id="img7">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="overlay-img">
+                      <img src="media/gallery/7.jpg" alt="gallery" />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="overlay-text">
+                      <h4>Any heading text</h4>
+                      <ul class="list-inline">
+                        <li class="list-inline-item">
+                          <i class="fa-solid fa-tags"></i>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="">After Effect</a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="">Video Editing</a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="">Photoshop</a>
+                        </li>
+                      </ul>
+                      <p>Any paragraph text</p>
+                      <a href="#" class="btn">Go to Project</a>
+                      <a href="#page" class="close">X</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <a href="#img8" class="gallery-link">
+                <img src="media/gallery/8.jpg" alt="gallery" />
+                <div class="gallery-hover">
+                  <i class="fa-solid fa-magnifying-glass-plus"></i>
+                </div>
+              </a>
+              <div class="gallery-overlay" id="img8">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="overlay-img">
+                      <img src="media/gallery/8.jpg" alt="gallery" />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="overlay-text">
+                      <h4>Any heading text</h4>
+                      <ul class="list-inline">
+                        <li class="list-inline-item">
+                          <i class="fa-solid fa-tags"></i>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="">After Effect</a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="">Video Editing</a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="">Photoshop</a>
+                        </li>
+                      </ul>
+                      <p>Any paragraph text</p>
+                      <a href="#" class="btn">Go to Project</a>
+                      <a href="#page" class="close">X</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="statistics" id="statistics">
+        <div class="overlay text-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-md-3">
+                <img src="media/icon1.png" alt="website" />
+                <div class="count" id="website-count"></div>
+                <span class="counter">Website</span>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <img src="media/icon2.png" alt="app" />
+                <div class="count" id="app-count"></div>
+                <span class="counter">Mobile App</span>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <img src="media/icon3.png" alt="user" />
+                <div class="count" id="user-count"></div>
+                <span class="counter">User</span>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <img src="media/icon4.png" alt="video" />
+                <div class="count" id="video-count"></div>
+                <span class="counter">Video Editing</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contacts" id="contacts">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3450.7128116214076!2d31.316902614445503!3d30.131030321433432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145815ade2fb05ed%3A0xa2106886507e8e2a!2sAin%20Shams!5e0!3m2!1sen!2seg!4v1659548646512!5m2!1sen!2seg"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="contact-addresses">
+                <h4>Address</h4>
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <address>Ain Shams Metro station - Cairo - Egypt</address>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <address>Ain Shams Metro station - Cairo - Egypt</address>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="contact-text text-center">
+            <h3>Contact us</h3>
+          </div>
+          <form class="contact-form row needs-validation" novalidate>
+            <div class="col-md-6 mb-3">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="username"
+                required
+              />
+              <div class="invalid-feedback">Please enter your username.</div>
+            </div>
+            <div class="col-md-6 mb-3">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="email"
+                required
+              />
+              <div class="invalid-feedback">Please enter your email.</div>
+            </div>
+            <div class="col-12 mb-3">
+              <textarea
+                class="form-control"
+                placeholder="message"
+                required
+              ></textarea>
+              <div class="invalid-feedback">Please enter your message.</div>
+            </div>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="top-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="about-us">
+                <h5>About us</h5>
+                <p>Any paragraph here</p>
+                <ul class="list-inline">
+                  <li class="list-inline-item">
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href=""><i class="fa-brands fa-google-plus-g"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="contact-us">
+                <h5>Contact us</h5>
+                <ul class="contact-list">
+                  <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Ain Shams - Cairo - Egypt
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-phone"></i>
+                    01117021853
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-envelope"></i>
+                    eng_mohammed_hassan@outlook.com
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>All Rights Reserved <span id="fullYear"></span></p>
+      </div>
+    </footer>
+    <script src="asset/bootstrap/js/bootstrap.min.js"></script>
+    <script src="asset/countUp.js/countUp.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
